@@ -13,6 +13,12 @@ ol, ul{
 }
 /*header*/
 /*header top*/
+header{
+    z-index: 600;
+    position: fixed;
+    width: 100%;
+    height: 115px;
+}
 .header-top{
     background-color: black;
     display: flex;
@@ -52,16 +58,192 @@ ol, ul{
 
 
 
-
 /*end header*/
 
 
 
 
 
-
+/*main*/
 main{
     background-color: rgb(65, 65, 65);
     width: 100%;
     height: 2000px;
+    padding-top: 114px;
 }
+.container-main-margins{
+    padding: 0 50px 0 50px;
+}
+
+/*jumbotron*/
+#jumbotron{
+    background-image: url(../img/jumbo-bg.png);
+    width: 100%;
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+}
+#jumbo-container{
+    margin-bottom: 70px;
+}
+#jumbotron img{
+    width: 300px;
+    margin-bottom: 30px;
+}
+#jumbotron h1, #jumbotron h2{
+    display: block;
+    color: white;
+}
+#jumbotron h1{
+    font-size: 60px;
+}
+#jumbotron h2{
+    font-size: 25px;
+    margin: 50px 0;
+}
+#jumbotron a{
+    background-color: #CD3D0F;
+    color: white;
+}
+/*fine jumbotron*/
+
+
+/*blocco 6 giochi*/
+#row6-games.row{
+    padding: 50px 60px 0 60px;
+    width: 100%;
+}
+.games-6-pill-container img{
+    border-radius: 30px;
+    width: 100%;
+}
+/*fine blocco 6 giochi*/
+
+
+
+
+
+
+/*blocco playstation 5*/
+#playstation5{
+    margin-top: 150px;
+    text-align: center;
+}
+#playstation5 h3{
+    color: blue;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+#playstation5 h1{
+    color: black;
+    margin-bottom: 40px;
+    font-size: 50px;
+}
+#playstation5 h2{
+    color: gray;
+    font-size: 24px;
+}
+
+#playstation5 .row{
+    width: 100%;
+}
+
+#playstation5 a{
+    background-color: blue;
+    color: white;
+}
+#playstation5 .blocco-text-play h1,
+#playstation5 .blocco-text-play h2,
+#playstation5 .blocco-text-play a{
+    text-align: left;
+}
+#playstation5 .blocco-text-play{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+
+
+/*fine blocco playstation 5*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*fine main*/
