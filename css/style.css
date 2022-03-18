@@ -66,16 +66,16 @@ header{
 
 /*main*/
 main{
-    background-color: rgb(65, 65, 65);
     width: 100%;
-    height: 2000px;
+    height: 7000px;
     padding-top: 114px;
 }
 .container-main-margins{
     padding: 0 50px 0 50px;
 }
+/*<section class="container-main-margins"></section>*/
 
-/*jumbotron*/
+/*returnal*/
 #jumbotron{
     background-image: url(../img/jumbo-bg.png);
     width: 100%;
@@ -109,7 +109,7 @@ main{
     background-color: #CD3D0F;
     color: white;
 }
-/*fine jumbotron*/
+/*fine returnal*/
 
 
 /*blocco 6 giochi*/
@@ -132,6 +132,8 @@ main{
 #playstation5{
     margin-top: 150px;
     text-align: center;
+    display: flex;
+    align-items: center;
 }
 #playstation5 h3{
     color: blue;
@@ -149,6 +151,7 @@ main{
 }
 
 #playstation5 .row{
+    margin-top: 100px;
     width: 100%;
 }
 
@@ -166,8 +169,14 @@ main{
     justify-content: flex-start;
     flex-direction: column;
 }
-
-
+#playstation5 div:last-child div:last-child{
+    display: flex;
+    justify-content: flex-start;
+}
+.playstation-row-photo_text{
+    display: flex;
+    align-items: center;
+}
 
 /*fine blocco playstation 5*/
 
@@ -181,6 +190,98 @@ main{
 
 
 
+/*blocco cards oggetti ps5*/
+#cards-oggetti-ps5{
+    margin-top: 150px;
+}
+.card-accessorio{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    transition: 0.5s;
+    width: 90%;
+}
+.card-accessorio:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+}
+/*fine blocco cards oggetti ps5*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*blocco it takes 2*/
+#jumbotron2{
+    margin-top: 80px;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    width: 100%;
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+}
+#jumbo-container2{
+    margin-bottom: 70px;
+}
+#jumbotron2 img{
+    width: 300px;
+    margin-bottom: 30px;
+}
+#jumbotron2 h1, #jumbotron2 h2{
+    display: block;
+    color: white;
+}
+#jumbotron2 h1{
+    font-size: 60px;
+}
+#jumbotron2 h2{
+    font-size: 25px;
+    margin: 50px 0;
+}
+#jumbotron2 a{
+    background-color: #CD3D0F;
+    color: white;
+}
+/*fine blocco it takes 2*/
+
+
+
+
+
+
+/*sezione gamecards*/
+#gamecards{
+    background-color: #1F1F1F;
+    color: white;
+    padding-bottom: 60px;
+}
+#gamecards h1{
+    font-size: 50px;
+    padding: 20px 0;
+}
+#gamecards h2{
+    padding-bottom: 20px;
+}
+#gamecards img{
+    border-radius: 20px;
+}
+#gamecards .row{
+    padding-bottom: 60px;
+}
+
+/*fine sezione gamecards*/
 
 
 
