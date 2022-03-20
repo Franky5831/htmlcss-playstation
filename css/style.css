@@ -266,6 +266,7 @@ main{
     background-color: #1F1F1F;
     color: white;
     padding-bottom: 60px;
+    margin-bottom: 100px;
 }
 #gamecards h1{
     font-size: 50px;
@@ -280,12 +281,45 @@ main{
 #gamecards .row{
     padding-bottom: 60px;
 }
-
+.card-accessorio{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    transition: 0.5s;
+    width: 90%;
+}
+.card-accessorio:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+}
 /*fine sezione gamecards*/
 
 
 
+/*sezione playstation 4*/
 
+#playstation4 h1, #playstation4 h2{
+    text-align: center;
+} 
+#playstation4 h1{
+    color: black;
+    font-size: 50px;
+    margin-bottom: 40px;
+} 
+#playstation4 h2{
+    color: gray;
+    font-size: 26px;
+    margin-bottom: 80px;
+} 
+
+#playstation4 .col h4{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+#playstation4 .col h5{
+    color: gray;
+    font-size: 25px;
+}
+
+
+/*fine sezione playstation 4*/
 
 
 
