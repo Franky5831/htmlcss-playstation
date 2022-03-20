@@ -67,7 +67,7 @@ header{
 /*main*/
 main{
     width: 100%;
-    height: 7000px;
+    height: 9000px;
     padding-top: 114px;
 }
 .container-main-margins{
@@ -294,7 +294,9 @@ main{
 
 
 /*sezione playstation 4*/
-
+#playstation4{
+    margin-bottom: 100px;
+}
 #playstation4 h1, #playstation4 h2{
     text-align: center;
 } 
@@ -317,8 +319,9 @@ main{
     color: gray;
     font-size: 25px;
 }
-
-
+#playstation4 .card-accessorio div{
+    margin-top: 20px;
+}
 /*fine sezione playstation 4*/
 
 
@@ -327,6 +330,84 @@ main{
 
 
 
+/*sezione playstation plus*/
+#playstationplus{
+    margin-bottom: 100px;
+}
+#playstationplus{
+    background-color: gray;
+}
+#playstationplus .container-main-margins{
+    display: flex;
+    justify-content: space-between;
+}
+#playstationplus .container-main-margins .play-plus-textarea img{
+    width: 500px;
+}
+#playstationplus .container-main-margins .play-plus-imgarea img{
+    height: 600px;
+}
+#playstationplus .container-main-margins .play-plus-textarea{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 7% 0;
+}
+/*fine sezione playstation plus*/
+
+
+
+
+/*blocco playstation store*/
+#playstore{
+    text-align: center;
+    margin-bottom: 100px;
+}
+#playstore h1{
+    color: black;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+#playstore h2{
+    color: gray;
+    font-size: 28px;
+    margin-bottom: 80px;
+}
+
+/*fine blocco playstation store*/
+
+
+
+
+
+
+
+
+/*blocco playstation now*/
+#playnow{
+    background-color: #161C3B;
+    width: 100%;
+    margin-bottom: 100px;
+    color: white;
+}
+#playnow .container-main-margins{
+    display: flex;
+    justify-content: space-between;
+}
+#playnow .container-main-margins .play-now-textarea img{
+    width: 500px;
+}
+#playnow .container-main-margins .play-now-imgarea img{
+    height: 600px;
+}
+#playnow .container-main-margins .play-now-textarea{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 7% 0;
+}
+/*fine blocco playstation now*/
 
 
 
@@ -347,20 +428,35 @@ main{
 
 
 
+/*blocco social media*/
+
+
+#playmedia{
+    text-align: center;
+}
+#playmedia h1{
+    font-size: 40px;
+    margin-bottom: 80px;
+}
+#flexbox-socialmedia{
+    display: flex;
+    justify-content: center;
+}
+#flexbox-socialmedia .col{
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    max-width: 300px;
+}
+#flexbox-socialmedia img{
+    max-width: 250px;
+    max-height: 250px;
+}
 
 
 
 
-
-
-
-
-
-
-
-
-
-
+/*fine blocco social media*/
 
 
 
