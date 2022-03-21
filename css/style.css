@@ -81,6 +81,20 @@ main{
     padding: 0 50px 0 50px;
 }
 /*<section class="container-main-margins"></section>*/
+.card-accessorio{
+    border-radius: 30px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    transition: 0.5s;
+    width: 90%;
+}
+.card-accessorio:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+}
+.row>div{
+    margin-bottom: 30px;
+}
+
 
 /*returnal*/
 #jumbotron{
@@ -200,14 +214,6 @@ main{
 /*blocco cards oggetti ps5*/
 #cards-oggetti-ps5{
     margin-top: 150px;
-}
-.card-accessorio{
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
-    transition: 0.5s;
-    width: 90%;
-}
-.card-accessorio:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
 }
 /*fine blocco cards oggetti ps5*/
 
@@ -380,6 +386,9 @@ main{
     color: gray;
     font-size: 28px;
     margin-bottom: 80px;
+}
+#playstore img{
+    border-radius: 25px;
 }
 
 /*fine blocco playstation store*/
