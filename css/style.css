@@ -18,12 +18,14 @@ header{
     position: fixed;
     width: 100%;
     height: 115px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
 }
 .header-top{
     background-color: black;
     display: flex;
     justify-content: end;
+}
+.header-bottom{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
 }
 .header-top img{
     width: 100px;
@@ -60,7 +62,12 @@ header li{
 header li img{
     margin-right: 30px;
 }
-
+.dropdown-menu{
+    border-radius: 0 !important;
+    border: 0px !important;
+    top: 75px;
+    left: -82px;
+}
 
 
 
