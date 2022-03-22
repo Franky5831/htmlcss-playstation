@@ -146,8 +146,21 @@ main{
     width: 100%;
 }
 .games-6-pill-container img{
+    position: relative;
+    bottom: 0px;
     border-radius: 30px;
     width: 100%;
+}
+.games-6-pill-container:first-child img{
+    width: calc(100% + 5px) !important;
+    bottom: 3px;
+    padding: 4px;
+    border: 2px solid blue;
+}
+.games-6-pill-container img:hover{
+    bottom: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+    transition: 0.5s;
 }
 /*fine blocco 6 giochi*/
 
@@ -222,6 +235,16 @@ main{
 #cards-oggetti-ps5{
     margin-top: 150px;
 }
+#cards-oggetti-ps5 img{
+    opacity: 0.7;
+    filter: grayscale(50%);
+}
+#cards-oggetti-ps5 img:hover{
+    opacity: 1;
+    filter: grayscale(0);
+    transition: 0.5s;
+}
+
 /*fine blocco cards oggetti ps5*/
 
 
