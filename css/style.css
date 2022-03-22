@@ -63,13 +63,18 @@ header li img{
     margin-right: 30px;
 }
 .dropdown-menu{
-    border-radius: 0 !important;
-    border: 0px !important;
-    top: 75px;
-    left: -82px;
+    position: relative;
+    top: 70px;
 }
-
-
+.card-header-cs{
+    margin: 20px;
+}
+.card-header-cs img{
+    width: 70px;
+}
+.card-header-cs h5{
+    text-align: center;
+}
 
 
 
